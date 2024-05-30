@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: Rogie;
+  src: url(fonts/Rogie.ttf);
+}
+
+@font-face {
+  font-family: Hatolie;
+  src: url(fonts/Hatolie.ttf);
+}
+
+.title {
+  text-align: center;
+  font-family: Hatolie;
+  font-size: 70px;
+  letter-spacing: 5px;
+}
+
+#firstpara {
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  position: relative;
+  padding: 10px;
+  background-color: #ffc8c2;
+}
+
+body {
+  background-color: salmon;
+}
+
+.pieces {
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: #f2d2ce;
+}
+
+.d-block w-100 {
+  width: 10px;
+}
+
